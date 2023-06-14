@@ -1,0 +1,27 @@
+input[type="checkbox"]{
+
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    
+}
+
+button.delete {
+
+    font-size: 1.5rem;
+    background: red;
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(120, 12, 12);
+    border-radius: 2px;
+    transition: all 0.3s;
+
+}
+
+button.delete:hover{
+    transform: scale(1.1);
+}
+
+.completed {
+    text-decoration: line-through;
+}
